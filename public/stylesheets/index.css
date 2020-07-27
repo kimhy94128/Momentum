@@ -75,3 +75,11 @@ li {
     z-index: -1;
     animation: fadeIn .5s linear;
 }
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    h1 {font-size: 150px;}
+    .todo input { font-size: 50px}
+}
